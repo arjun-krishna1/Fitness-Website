@@ -1,4 +1,22 @@
 {
+  "name": "fitness-website",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mruhankhan/Fitness-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mruhankhan/Fitness-Website/issues"
+  },
+  "homepage": "https://github.com/Mruhankhan/Fitness-Website#readme",
+  
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
