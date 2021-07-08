@@ -1,12 +1,18 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 
-app.listen()
+app.use(express.static(__dirname));
 
-app.get('/', (res,req) =>{
-  res.render('index')  
+
+app.use(express.static('public'))
+app.listen(process.env.PORT)
+app.set('view engine', 'ejs')
+
+app.get('/', (req, res) =>{
+res.render('index')
 })
 
-app.get('/asking', (res, req) =>{
-    res.render('asking')
+app.get('/results', (req, res) =>{
+  res.render('results')
 })

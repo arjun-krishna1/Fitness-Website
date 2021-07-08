@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
     "url": "https://github.com/Mruhankhan/Fitness-Website/issues"
   },
   "homepage": "https://github.com/Mruhankhan/Fitness-Website#readme",
-  
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
@@ -24,5 +23,6 @@
   "devDependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.9"
-  }
+  },
+  "keywords": []
 }

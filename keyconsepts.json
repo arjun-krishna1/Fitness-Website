@@ -1,5 +1,6 @@
 {
-    "title":" no your slef better",
+    "title":"Know your slef better",
     "Main Functions": "Age height weigth", 
-    "Math key" : "x = y + 3"
+    "Math key" : "x = y + 3",
+    "routes":"setup"
 }
