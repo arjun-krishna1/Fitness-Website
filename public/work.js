@@ -1,11 +1,9 @@
 let buttonSubmit = document.getElementById('button-submit')
 buttonSubmit.addEventListener('click', () =>{
-
+    console.log('clicked')
     let ageInput = document.getElementById('age')
-    let numberAgeInput = parseInt(ageInput)
-    let one = 1;
-    if(numberAgeInput === one){
-            alert()
+    console.log(ageInput.value);
+    if (ageInput.value === "1"){
+        alert()
     }
-
 })
