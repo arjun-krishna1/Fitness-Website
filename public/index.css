@@ -1,7 +1,26 @@
-#main {
-    padding: 3%;
+body {
+    background-color: black;
 }
 
 .card {
     padding: 1%;
+}
+
+.subheading {
+    font-family: "Bangers";
+    color: black;
+    font-size: 2em;
+}
+
+#main {
+    padding: 3%;
+}
+
+#title {
+    font-family: "Press Start 2P";
+    color: #3dce65;
+}
+
+#input-group {
+    background-color: #3dce65;
 }
